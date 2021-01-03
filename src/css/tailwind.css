@@ -1,9 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .navhover {
   @apply rounded-2xl border-2 border-transparent hover:text-primary hover:border-primary py-4 px-10 duration-200;
+}
+
+.head-btn {
+  @apply py-6 px-12 bg-primary text-white font-bold text-2xl rounded-2xl tracking-normal transform hover:-translate-y-2.5 active:-translate-y-0.5 shadow-lg active:shadow-none focus:outline-none duration-300;
+}
+
+.card-grid {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-6;
+}
+
+.card {
+  @apply flex items-center shadow-lg overflow-hidden rounded-3xl;
+}
+
+.card-text {
+  @apply pl-6 pr-4 flex flex-col items-start justify-between h-72 pt-7 pb-7;
+}
+
+.card-btn {
+  @apply px-10 py-3 mt-6 border-primary text-primary border-2 rounded-xl text-2xl font-medium hover:text-white hover:border-transparent hover:bg-primary duration-150;
 }
