@@ -25,3 +25,7 @@
 .card-btn {
   @apply px-10 py-3 mt-6 border-primary text-primary border-2 rounded-xl text-2xl font-medium hover:text-white hover:border-transparent hover:bg-primary duration-150;
 }
+
+.card-btn-2 {
+  @apply px-10 py-3 border-primary text-primary border-2 rounded-xl text-2xl font-medium hover:text-white hover:border-transparent hover:bg-primary duration-150;
+}
