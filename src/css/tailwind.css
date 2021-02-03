@@ -10,6 +10,10 @@
   @apply py-6 px-12 bg-primary text-white font-bold text-2xl rounded-2xl tracking-normal transform hover:-translate-y-2.5 active:-translate-y-0.5 shadow-lg active:shadow-none focus:outline-none duration-300;
 }
 
+.head-btn-2 {
+  @apply py-5 px-20 bg-primary text-white font-bold text-2xl rounded-2xl tracking-normal transform hover:-translate-y-2.5 active:-translate-y-0.5 shadow-lg active:shadow-none focus:outline-none duration-300;
+}
+
 .card-grid {
   @apply grid grid-cols-1 lg:grid-cols-2 gap-6;
 }
